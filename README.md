@@ -61,12 +61,17 @@ Download the latest APK here:
 
 ## 🗂 Project Structure
 
-| File                  | Description                                                                   |
-|-----------------------|-------------------------------------------------------------------------------|
-| `MainActivity.kt`     | Entry point of the app, handles navigation and splash/profile transitions.   |
-| `SplashScreen.kt`     | Composable for the splash screen with animated lines and glowing text.       |
-| `ProfileScreen.kt`    | Composable for displaying user data in a scrollable layout.                  |
-| `ProfileViewModel.kt` | ViewModel to manage data fetching from Firebase.                             |
-| `UserData.kt`         | Data class representing user information fetched from Firebase.              |
+All functionality is organized within a single Kotlin file:
+
+| Section              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| `MainActivity.kt`    | Contains all app logic, including:                                          |
+|                      | - SplashScreen composable with animated falling blue lines                  |
+|                      | - ProductDetailScreen composable showing scrollable product data            |
+|                      | - Countdown timer implementation for limited-time offers                    |
+|                      | - Retrofit setup to fetch data from the dummy API                           |
+|                      | - `Product` and `ProductDisplay` data classes for API and UI mapping        |
+|                      | - Navigation and transitions between splash and product detail screens      |
 
 ---
+
