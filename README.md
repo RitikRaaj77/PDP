@@ -51,11 +51,23 @@ Download the latest APK here:
 
 ---
 
+
 ## 🧑‍💻 Usage
 
-- Displays after splash screen with a 1-second fade-in.
-- Shows user data including credit score, cashback, bank balance, and rewards.
-- Scroll to view "YOUR REWARDS & BENEFITS" and "TRANSACTIONS & SUPPORT".
+- **Splash Screen**: Displays on app launch with animated falling lines and fades out after 2 seconds.
+- **Product Detail Screen**:
+  - Shows product image, name, original & discounted price, runtime.
+  - Includes countdown timer for deals.
+  - Displays product features, additional images, and a detailed description.
+  - Action Buttons: **ADD TO CART** and **BUY NOW**.
+
+- **Scroll to Explore**:
+  - View detailed product description.
+  - Extra features like:
+    - ✅ Genuine Products
+    - ⏳ Limited Time Deals
+    - 🚚 Free Shipping
+    - 🔒 Secure Payments
 
 ---
 
